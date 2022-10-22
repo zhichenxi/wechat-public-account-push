@@ -6,6 +6,8 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
+  
+  USE_PASSAGE: 'server-chan',
 
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wx1da1679e6f7d20cf',
@@ -21,9 +23,11 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '小狗',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'otWqO5_IUtO8Q-KpPUahQN0ESjpg',
+      // id: 'otWqO5_IUtO8Q-KpPUahQN0ESjpg',
+      id: 'SCT177944TzJYkeyzloKsUFKfSeULYrC4t',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'TvXLSwxy7kdEG10VA59Ah7-tZ-4CBp0NpKFt2RkvC1k',
+      // useTemplateId: 'TvXLSwxy7kdEG10VA59Ah7-tZ-4CBp0NpKFt2RkvC1k',
+      useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-10',
       festivals: [
